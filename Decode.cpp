@@ -1,5 +1,6 @@
 #include<iostream>
 #include<string>
+#include<cstring>
 using namespace std;
 int decode(string ns,int k){
 	if(ns[k-1]==0||k==1){ return 0;}
